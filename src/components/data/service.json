@@ -1,0 +1,28 @@
+{
+    "services": [
+      {
+        "titre": "Snooker News",
+        "description": "Get the latest snooker, news, scores and gossip",
+        "btntext": "Read More",
+        "url": "/news"
+      },
+      {
+        "titre": "Buyer Guides",
+        "description": "Snooker equipment reviews and recommendations from snooker players and enthusiasts",
+        "btntext": "Read More",
+        "url": "/guides"
+      },
+      {
+        "titre": "Affordable Pricing",
+        "description": "A snooker shop build by enthusiasts for enthusiasts",
+        "btntext": "Shop Now",
+        "url": "/shop"
+      },
+      {
+        "titre": "Latest News",
+        "description": "Keep Up to date with the latest happening in the world of Snooker, updated hourly!",
+        "btntext": "Read More",
+        "url": "/latest"
+      }
+    ]
+  }

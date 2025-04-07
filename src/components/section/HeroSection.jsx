@@ -2,11 +2,11 @@ import React from 'react';
 import { ReactTyped } from "react-typed";
 import video from '../../assets/videos/snooker.mp4';
 import Shop from '../button/Shop';
+import WhiteBtn from '../button/WhiteBtn';
 
 const HeroSection = () => {
   return (
     <div className="relative h-screen w-full overflow-hidden">
-      {/* Video Background */}
       <video autoPlay loop muted className="absolute top-0 left-0 w-full h-full object-cover z-0">
         <source src={video} type="video/mp4" />
       </video>
@@ -30,11 +30,10 @@ const HeroSection = () => {
         <p className="mt-6 text-xl mb-10">Built For Snooker Enthusiasts!</p>
 
         <div className="flex flex-col sm:flex-row justify-center gap-4 mt-4">
-          <Shop />
+          <Shop value="SHOP NOW" />
 
-          <button className="px-8 py-3 bg-white text-black font-bold rounded-full hover:bg-gray-200 transition duration-300">
-            SNOOKER NEWS AND RESULTS
-          </button>
+          <WhiteBtn value="SNOOKER NEWS AND RESULTS" />
+
         </div>
       </div>
     </div>
