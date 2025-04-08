@@ -14,7 +14,7 @@ const HeroSection = () => {
       <div className="absolute top-0 left-0 w-full h-full  bg-opacity-40 z-10 flex flex-col items-center justify-center text-center text-white px-4">
         <h1 className="text-5xl md:text-6xl font-bold tracking-wider">
           MASTER YOUR GAME
-        </h1>
+        </h1> 
 
         <div className="mt-4 text-4xl md:text-5xl font-bold text-yellow-500">
           <ReactTyped
